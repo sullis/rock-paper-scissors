@@ -17,6 +17,8 @@ dependencies {
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation("com.google.guava:guava:29.0-jre")
+    implementation("com.amazonaws:aws-lambda-java-events:3.8.0")
+    implementation("software.amazon.lambda:powertools-logging:1.5.0")
 }
 
 tasks.test {
