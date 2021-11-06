@@ -19,7 +19,7 @@ dependencies {
     implementation("com.google.guava:guava:31.0.1-jre")
     implementation("com.amazonaws:aws-lambda-java-core:1.2.1")
     implementation("com.amazonaws:aws-lambda-java-events:3.10.0")
-    implementation("software.amazon.lambda:powertools-logging:1.7.3")
+    implementation("software.amazon.lambda:powertools-logging:1.8.0")
 }
 
 tasks.test {
