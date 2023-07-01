@@ -7,6 +7,8 @@ repositories {
     mavenCentral()
 }
 
+val powertoolsVersion = "1.16.0"
+
 dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.3")
 
@@ -19,7 +21,8 @@ dependencies {
     implementation("com.google.guava:guava:32.1.1-jre")
     implementation("com.amazonaws:aws-lambda-java-core:1.2.2")
     implementation("com.amazonaws:aws-lambda-java-events:3.11.2")
-    implementation("software.amazon.lambda:powertools-logging:1.16.0")
+    implementation("software.amazon.lambda:powertools-logging:$powertoolsVersion")
+    implementation("software.amazon.lambda:powertools-metrics:$powertoolsVersion")
 }
 
 tasks.test {
