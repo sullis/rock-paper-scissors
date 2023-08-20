@@ -7,7 +7,7 @@ repositories {
     mavenCentral()
 }
 
-val powertoolsVersion = "1.16.0"
+val powertoolsVersion = "1.16.1"
 
 dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.3")
