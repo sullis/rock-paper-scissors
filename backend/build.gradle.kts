@@ -21,7 +21,7 @@ dependencies {
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation("com.google.guava:guava:33.1.0-jre")
     implementation("com.amazonaws:aws-lambda-java-core:1.2.3")
-    implementation("com.amazonaws:aws-lambda-java-events:3.11.4")
+    implementation("com.amazonaws:aws-lambda-java-events:3.11.5")
     implementation("software.amazon.lambda:powertools-logging:$powertoolsVersion")
     implementation("software.amazon.lambda:powertools-metrics:$powertoolsVersion")
 }
