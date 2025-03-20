@@ -16,7 +16,7 @@ dependencies {
 
     api("org.apache.commons:commons-math3:3.6.1")
 
-    implementation("com.google.guava:guava:33.4.0-jre")
+    implementation("com.google.guava:guava:33.4.5-jre")
     implementation("com.amazonaws:aws-lambda-java-core:1.2.3")
     implementation("com.amazonaws:aws-lambda-java-events:3.15.0")
     implementation("software.amazon.lambda:powertools-logging:$powertoolsVersion")
