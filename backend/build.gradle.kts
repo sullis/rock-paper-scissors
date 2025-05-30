@@ -9,7 +9,7 @@ repositories {
 val powertoolsVersion = "1.20.2"
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:5.13.0-RC1"))
+    testImplementation(platform("org.junit:junit-bom:5.13.0"))
     testImplementation("org.junit.jupiter:junit-jupiter-api")
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
