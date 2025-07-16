@@ -18,7 +18,7 @@ dependencies {
 
     implementation("com.google.guava:guava:33.4.8-jre")
     implementation("com.amazonaws:aws-lambda-java-core:1.3.0")
-    implementation("com.amazonaws:aws-lambda-java-events:3.16.0")
+    implementation("com.amazonaws:aws-lambda-java-events:3.16.1")
     implementation("software.amazon.lambda:powertools-logging:$powertoolsVersion")
     implementation("software.amazon.lambda:powertools-metrics:$powertoolsVersion")
 }
