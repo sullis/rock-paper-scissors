@@ -6,7 +6,7 @@ repositories {
     mavenCentral()
 }
 
-val powertoolsVersion = "2.3.0"
+val powertoolsVersion = "2.4.0"
 
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.13.4"))
